@@ -1,0 +1,122 @@
+body{
+	background-color: #f0fff0;
+}
+h1{
+	margin-top: -8px;
+	margin-left:-8px;
+
+	font-family: arial;
+	font-weight: 400px;
+	height: 60px;
+	width: 100%;
+	padding: 20px;
+	background-color: #008080;
+}
+#sidebar{
+
+	float: left;
+	background: #f0fff0;
+	margin-top: 100px;
+	width: 200px;
+	height: 90%;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-style: solid;;
+	border-color: black;
+	border-left: 10px;
+	overflow: auto;
+	white-space: nowrap;
+}
+#sidebar a{
+	display: inline-block;
+	text-decoration: none;
+}
+#sidebar a:hover{
+	background-color: #777;
+	margin-left: 10px;
+	transition: linear all 0.30s;
+}
+ul{
+	margin-left: -40px;
+}
+ul li{
+	list-style-type: none;
+}
+ul li a{
+	font-family: "Helvetica Neue", Helvetica;
+	background-color:#f0fff0;
+	color: black;
+	border-bottom: 1px solid #111;
+	display: block;
+	width: 150px;
+	padding: 20px; 
+}
+
+.box {
+	float: right;
+	width: 80%;
+	height: 50%;
+	border: 2px solid black;
+	padding: 30px;
+	margin-top: -21px;
+	margin-left: -5px;
+	margin-right: 23px;
+
+}
+.selected{
+	background: white;
+}
+.aturJarak{
+	float: left;
+	margin-top: 10px;
+}
+input{
+	padding: 4px;
+	font-size: inherit;
+}
+input[type="text"]{
+	width: 85%;
+	height: 100%;
+	border: 2px solid #008080;
+}
+input[type="submit"]{
+	float: right;
+}
+button {
+	font: 14px "Trebuchet MS", sans-serif;
+}
+.button {
+	padding: 8px 16px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	color: black;
+	background-color: #9ad3ce;
+
+	transition: all 0.3s ease-in-out;
+	
+}
+.button-primary {
+	margin-left: 900px;
+}
+.button-secondary{
+	text-align: center;
+	width: 50px;
+	margin-left: 57px;	
+}
+.button:hover {
+	background-color: #FFFFFF;
+	color:#008080;
+	border-color: #008080;
+}
+.isbn{
+	font-family: "Helvetica Neue", Helvetica;
+	float: left;
+}
+.kategori{
+	
+	float: right;
+	font-family: "Helvetica Neue", Helvetica;
+}
